@@ -40,3 +40,8 @@
 .b{background-color: orange;}
 .c{background-color:yellow;}
 .para{font-weight:800; font-style:italic;word-spacing: 2px;padding:0px 20px;  margin-top: 22px;}
+.mob-nav{display:none;}
+@media(max-width:767px)
+{
+	.mob-nav{display:block;}
+}
